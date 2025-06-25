@@ -46,7 +46,7 @@ python <script_name>.py
 ---
 ### Dataset Compatibility
 
-Each of the three scripts—`pure_python_stats.py`, `pandas_stats.py`, and `polars_stats.py`—is designed to be **dataset-agnostic** and can process all three provided CSV datasets:
+Each of the three scripts, `pure_python_stats.py`, `pandas_stats.py`, and `polars_stats.py`—is designed to be **dataset-agnostic** and can process all three provided CSV datasets:
 
 - `2024_fb_ads_president_scored_anon.csv`
 - `2024_fb_posts_president_scored_anon.csv`
