@@ -63,6 +63,13 @@ The datasets collectively capture a wide range of advertising and social media a
 
 - Key columns like `estimated_spend`, `estimated_impressions`, and `estimated_audience_size` provide insight into campaign scale and budgetary trends.
 - Several categorical fields (e.g., `advocacy_msg_type_illuminating`, `election_integrity_Truth_illuminating`) highlight nuanced messaging strategies around governance, health, immigration, and technology.
+- **Total Ads Analyzed**: 246,745
+- **Platform**: Facebook + Instagram (multi-platform majority)
+- **Top Metrics**:
+  - **Mean Estimated Spend**: $1,061.29
+  - **Spend Range**: $49.00 to $474,999.00
+  - **Average Impressions**: 45,602
+  - **Maximum Impressions**: 1,000,000
 
 ---
 
