@@ -44,7 +44,19 @@ python <script_name>.py
 4. Output files are generated in the same directory.
 
 ---
+### Dataset Compatibility
 
+Each of the three scripts—`pure_python_stats.py`, `pandas_stats.py`, and `polars_stats.py`—is designed to be **dataset-agnostic** and can process all three provided CSV datasets:
+
+- `2024_fb_ads_president_scored_anon.csv`
+- `2024_fb_posts_president_scored_anon.csv`
+- `2024_fb_ads_congress_scored_anon.csv`
+
+The scripts detect key group identifiers such as `page_id`, `ad_id`, `Facebook_Id`, `post_id`, etc., dynamically and apply appropriate descriptive statistics and group-level aggregations.
+
+To run the analysis, simply place the desired CSV file in the same directory as the script and follow the command-line prompt to input the file name.
+
+---
 ## General Insights Across All Datasets
 
 The datasets collectively capture a wide range of advertising and social media activity from the 2024 U.S. Presidential Election.
