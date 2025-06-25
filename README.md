@@ -93,9 +93,9 @@ The datasets collectively capture a wide range of advertising and social media a
 Yes. The main challenge was that different libraries handle missing or non-numeric values differently. Pure Python required manual handling of each case, while Pandas and Polars had built-in mechanisms that varied slightly in how they skipped nulls or coerced data types. Consistency was ensured by enforcing type conversions and filtering nulls explicitly.
 
 **Which approach was easiest or most performant?**  
-- Easiest: **Pandas** — clean syntax, intuitive operations, wide adoption.
-- Most performant: **Polars** — highly optimized for speed but more verbose.
-- Most transparent: **Pure Python** — instructive, but not efficient.
+- Easiest: **Pandas** clean syntax, intuitive operations, wide adoption.
+- Most performant: **Polars** highly optimized for speed but more verbose.
+- Most transparent: **Pure Python** instructive, but not efficient.
 
 **Advice for a junior data analyst?**  
 Start with **Pandas**. It provides the best balance of usability and capability, and is widely supported in tutorials, documentation, and job roles. Learn Polars for performance-critical work and explore pure Python for a deeper understanding.
