@@ -114,6 +114,10 @@ Yes. Tools like ChatGPT can generate starter code for all three approaches, prov
 ChatGPT typically recommends **Pandas** by default for descriptive statistics — a recommendation I agree with. It's mature, readable, and integrates seamlessly with the data science ecosystem. That said, it’s good practice to evaluate Polars or PySpark for scalability.
 
 ---
+**What’s New (July 1–15, 2025)**
+- Performance Benchmarks added across Pure Python, Pandas, and Polars.
+- Improved Notebook Documentation for clearer storytelling and stakeholder facing presentations.
+- Modular Code Refactoring for better readability and reuse.
 
 ## Conclusion
 
